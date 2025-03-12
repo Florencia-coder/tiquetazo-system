@@ -1,0 +1,46 @@
+.container {
+  margin-top: 1.2rem;
+}
+.grid {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(120px, 1fr)
+  ); /* Ajuste según el tamaño */
+  justify-content: center;
+  justify-items: center;
+}
+
+/* Media Query para pantallas más grandes */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(100px, 1fr)
+    ); /* Ajuste para tablets y pantallas medianas */
+  }
+}
+
+/* Media Query para pantallas aún más grandes */
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(120px, 1fr)
+    ); /* Ajuste para pantallas grandes */
+  }
+}
+
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(70px, 1fr)
+    ); /* Ajusta las columnas en pantallas muy pequeñas */
+    gap: 0.8rem; /* Menos espacio entre los elementos */
+    padding: 0.5rem; /* Menos padding en pantallas pequeñas */
+  }
+}

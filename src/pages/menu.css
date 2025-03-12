@@ -1,0 +1,53 @@
+.menu-container {
+  height: 88vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.menu-items {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  overflow: auto;
+  overflow-y: scroll;
+  max-height: calc(88vh - 2rem);
+  min-height: calc(88vh - 2rem);
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+
+  /* Ocultar scrollbar en navegadores basados en WebKit (Chrome, Edge, Safari) */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Ocultar scrollbar en Firefox */
+  scrollbar-width: none;
+}
+
+.menu-footer {
+  border-radius: 1rem 1rem 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 60%;
+  background-color: white; /* Asegura visibilidad */
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Sombras para mejor diseño */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .menu-items {
+    margin-bottom: 5rem;
+  }
+  .menu-footer {
+    width: 100%;
+  }
+}

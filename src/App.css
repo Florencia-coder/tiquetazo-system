@@ -1,0 +1,33 @@
+#root {
+  text-align: center;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5;
+}
+li {
+  list-style-type: none;
+}
+
+@media (min-width: 1024px) {
+  #root {
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f3f4;
+  }
+}

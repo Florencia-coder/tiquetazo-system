@@ -1,0 +1,229 @@
+{
+  "tables": [
+    { "id": 1, "state": "Available", "orders": [] },
+    { "id": 2, "state": "Available", "orders": [] },
+    { "id": 3, "state": "Occupied", "orders": [] },
+    { "id": 4, "state": "Occupied", "orders": [] },
+    { "id": 5, "state": "Available", "orders": [] },
+    { "id": 6, "state": "Paying", "orders": [] },
+    { "id": 7, "state": "Available", "orders": [] },
+    { "id": 8, "state": "Occupied", "orders": [] },
+    { "id": 9, "state": "Available", "orders": [] },
+    { "id": 10, "state": "Available", "orders": [] },
+    { "id": 11, "state": "Available", "orders": [] },
+    { "id": 12, "state": "Available", "orders": [] },
+    { "id": 13, "state": "Available", "orders": [] },
+    { "id": 14, "state": "Available", "orders": [] },
+    { "id": 15, "state": "Available", "orders": [] },
+    { "id": 16, "state": "Available", "orders": [] },
+    { "id": 17, "state": "Available", "orders": [] },
+    { "id": 18, "state": "Available", "orders": [] },
+    { "id": 19, "state": "Available", "orders": [] },
+    { "id": 20, "state": "Available", "orders": [] },
+    { "id": 21, "state": "Available", "orders": [] },
+    { "id": 22, "state": "Available", "orders": [] },
+    { "id": 23, "state": "Available", "orders": [] },
+    { "id": 24, "state": "Available", "orders": [] }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Entradas"
+    },
+    {
+      "id": 2,
+      "name": "Platos principales"
+    },
+    {
+      "id": 3,
+      "name": "Bebidas"
+    },
+    {
+      "id": 4,
+      "name": "Vinos"
+    },
+    {
+      "id": 5,
+      "name": "Papas"
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesas"
+    },
+    {
+      "id": 7,
+      "name": "Sandwichs"
+    },
+    {
+      "id": 8,
+      "name": "Pizzas"
+    },
+    {
+      "id": 9,
+      "name": "Empanadas"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "Bruschettas con multicolores",
+      "price": 1200,
+      "categories": 1,
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Papas con cheddar",
+      "price": 1500,
+      "categories": 1,
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Milanesa con papas",
+      "price": 2500,
+      "categories": 2,
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Hamburguesa completa",
+      "price": 2800,
+      "categories": 2,
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Coca-Cola 500ml",
+      "price": 800,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 11,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 12,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 13,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 14,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 15,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 16,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 17,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 18,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 19,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 20,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 21,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 22,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    },
+    {
+      "id": 23,
+      "name": "Cerveza artesanal",
+      "price": 2000,
+      "categories": 3,
+      "description": ""
+    }
+  ]
+}

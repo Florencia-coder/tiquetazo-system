@@ -1,0 +1,17 @@
+.container-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-item span {
+  font-size: small;
+}
+
+.container-price {
+  gap: 1rem;
+  display: flex;
+}
+
+.item-quantity {
+  font-weight: bold;
+}
